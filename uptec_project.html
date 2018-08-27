@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>WebBuddy</title>
+  <link rel="shortcut icon" type="image/x-icon" href="logo\3.jpg" sizes="30x20">
+    <link rel="icon" type="jpg" href="logo\3.jpg">
+    <link rel="apple-touch-icon" href="logo\3.jpg">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+#b1
+{
+  border-radius: 0px solid rgba(0,0,0,0.1);
+  border:0px solid rgba(0,0,0,0.1);
+}
+#b1:hover
+{
+  box-shadow: 8px 10px 2px 2px rgba(0,0,0,0.3);
+  font-size: 30px;
+}
+.modal-content
+{
+background-color: rgba(0,0,0,0.3);
+width:115%;
+}
+.box:hover{
+  transform: scale(1.3);
+  box-shadow: 40px 40px 40px 40px rgba(0,0,0,0.3);
+  background-color: #fff800a;
+  z-index: 3;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+</style>
+</head>
+<body style="background-image: url('bg14.jpg');">
+<!--start of row-->
+<div class="row">
+  <div class="col-sm">
+  <img src="logo\1.jpg" style="opacity: 0.9;margin-left:40px;margin-top:20px; height:60px;width:230px;box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.5);">
+</div>
+</div>
+<!--End of row-->
+
+<div clas="container" style="height: 80px;"></div>
+<div class="container" style="box-shadow: 20px 20px 2px 2px rgba(0,0,0,0.5);">
+<!--Start of row-->
+<div class="row">
+  <div class="col-sm box" style="float:right;">
+    <a href="html5.html"><button class="btn btn-danger" style="background-color:rgb(237,28,36);height:140px;width:160px;border-radius: 0px;font-family:script mt ;font-size: 25px;" id="b1">HTML <br>5</button></a></div>
+    <div class="col-sm box" style="float:right;">
+    <img src="logo\2.png" style="height:140px;width:160px;">
+    </div>
+    <div class="col-sm" style="width:500px;float:right;margin-right: 50px;">
+      <p style="font-family: Book Antiqua;font-size: 32px;color:yellow;"><b>UPTEC Computer Consultancy</b></p>
+      <p style="font-size: 20px;float:left;color:white;">Technology has forever changed the world we live in. We're online, in one way or another, all day long.</p>
+    </div>
+  </div>
+<!--End of row-->
+
+<!--Start of row-->
+<div class="row">
+<div class="col-sm box" style="float:right;">
+    <a href="css.html"><button id="b1" class="btn btn-danger button" style="background-color:rgb(0,64,64);height:140px;width:160px;border-radius: 0px;font-family:script mt ;font-size: 25px;">CSS<br>Introduction</button></a>
+  </div>
+  <div class="col-sm box" style="float:right;">
+    <img src="logo\5.jpg" style="height:140px;width:160px;">
+  </div>
+  <div class="col-sm box" style="float:right;">
+    <a href="n_bar.html"><button id="b1" class="btn btn-danger button" style="background-color:rgb(0,0,64);height:140px;width:160px;border-radius: 0px;font-family:script mt ;font-size: 25px;">Navigation<br>Bar</button></a>
+  </div>
+  <div class="col-sm box" style="float:right;">
+    <img src="logo\4.png" style="height:140px;width:160px;">
+  </div>
+  <div class="col-sm box" style="float:right;">
+    <button class="btn btn-success" style="background-color:rgb(7,41,18);height:140px;width:160px;border-radius: 0px;font-family:script mt ;font-size: 28px;" id="b1" data-toggle="modal" data-target="#myModal1">Slide<br>Show</button>
+  </div>
+  <div class="col-sm box" style="float:right;">
+    <img src="logo\6.jpg" style="height:140px;width:160px;">
+  </div>
+    <div class="col-sm box" style="float:right;">
+  <a href="bootstrap.html"><button class="btn btn-primary" style="background-color:rgb(64,0,64);height:140px;width:160px;border-radius: 0px;font-family:script mt ;font-size: 25px;" id="b1">Bootstrap<br>Introduction  
+    </button></a>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-sm box" style="float:left;margin-left: 530px;">
+  <a href="b_forms.html"><button class="btn btn-primary" style="background-color:rgb(255,127,39);height:140px;width:160px;border-radius: 0px;font-family:script mt ;font-size: 25px;" id="b1">Bootstrap<br>Forms 
+    </button></a>
+  </div>
+  <div class="col-sm box" style="float:left;">
+    <img src="logo\7.jpg" style="height:140px;width:160px;">
+  </div>
+  <div class="col-sm box" style="float:left;">
+  <a href="b_modals.html"><button class="btn btn-primary" style="background-color:rgb(128,128,0);height:140px;width:160px;border-radius: 0px;font-family:script mt ;font-size: 25px;" id="b1">Bootstrap<br>Modals  
+    </button></a>
+  </div>
+</div>
+</div>
+<!--Modal-->
+<div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <center><h4 class="modal-title" style="color:white;font-size: 30px;font-family: script mt;">SLIDESHOW</h4></center>
+        </div>
+        <div class="modal-body" style="height:580px;">
+          <!--Slide show-->
+          <div class="w3-content w3-section" style="max-width:500px;max-height:200px;float: left;">
+            <img class="mySlides w3-animate-fading" src="s_s_photos\13.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\1.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\2.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\3.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\4.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\5.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\6.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\7.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\8.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\9.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\10.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\11.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\12.jpg" style="width:200%">
+  
+  <img class="mySlides w3-animate-fading" src="s_s_photos\14.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\15.jpg" style="width:200%">
+  
+  <img class="mySlides w3-animate-fading" src="s_s_photos\17.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\19.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\20.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\21.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\22.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\23.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\24.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\25.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\26.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\27.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\28.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\29.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\30.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\31.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\32.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\33.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\34.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\35.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\36.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\37.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\38.jpg" style="width:200%">
+  <img class="mySlides w3-animate-fading" src="s_s_photos\39.jpg" style="width:200%">
+  
+</div>
+<!--End of slideshow-->
+        </div>
+        <div class="modal-footer">
+          <center><button type="button" class="btn btn-default" data-dismiss="modal" style="background-color: red;border-radius: 0px;border:2px solid red;width:100px;font-size:24px;font-family: script mt;color:white;">Close</button></center>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Modal-->
+<!--Script for slide show-->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel()
+ {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) 
+    {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) 
+      {
+        myIndex = 1
+      }    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+}
+</script>
+<!--End of Script-->
+
+
+</body>
+</html>
